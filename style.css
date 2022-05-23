@@ -22,39 +22,47 @@ html {
     height: auto;
   }
 
-
-
-
-
-
-
-
-
+ 
 
 .global-container{
     display:grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    height:100vh;
-  
+    height:100vh;  
 }
 
 .sidebar-container{
     grid-row:1/3;
     background-color: #1992D4;
     display:grid;
-    color:white;
-}
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    color:white; 
+  }
 
 .sidebar-container h1, p {
 margin:0.5rem;
 font-size: x-large;
-display: inline-block;
+
 }
 
 .sidebar-container div{
-    margin:auto;
-    margin-top:1rem;
+    
+    margin-top:0.5rem;
+    color:white;
+    margin-right:1.8rem;
+    
+}
+
+.sidebar-container div div{
+display:flex;
+align-items: center;
+
+}
+
+.third-part div{
+
 }
 
 .header-container{
@@ -66,9 +74,6 @@ grid-area: 2 / 2 / 3 / 3;
 background-color: #e2e8f0;
 }
 
-div1 {
-    border: solid 1px;
-}
 
 
 
