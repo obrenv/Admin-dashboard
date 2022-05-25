@@ -22,7 +22,7 @@ html {
     height: auto;
   }
 
- 
+ /*SIDEBAR*/
 
 .global-container{
     display:grid;
@@ -36,9 +36,10 @@ html {
     background-color: #1992D4;
     display:grid;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     grid-template-rows: 0.1fr 0.5fr 0.1fr;
     color:white; 
+    
   }
 
 .sidebar-container h1, p {
@@ -58,15 +59,14 @@ font-size: x-large;
 .sidebar-container div div{
 display:flex;
 align-items: center;
-
-}
-
-.third-part div{
-
+margin-left:1rem;
 }
 
 .header-container{
     grid-column:2/3;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5rem 5rem;
 }
 
 .main-container{
@@ -77,3 +77,66 @@ background-color: #e2e8f0;
 
 
 
+ /*HEADER*/
+
+ .searchbar{
+   display:flex;
+   justify-content: start; 
+   align-items: center;
+   padding-left: 2rem;
+   
+   
+   
+ }
+
+ .greeting img{
+width: 5rem;
+border: solid 1px;
+border-radius: 50%;
+grid-row: 1 / 3;
+margin:auto;
+margin-left: 3rem;
+ }
+
+ .pepe{
+  width: 3rem;
+  border: solid 1px;
+  border-radius: 50%;
+   }
+
+   .searchbar input{
+    border-radius: 2rem;
+    background-color:#e2e8f0;
+    width: 50rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+    border:none;
+   }
+
+   .user{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     gap:1rem;
+     
+   }
+
+   .greeting{
+display:flex;
+width:21rem;
+   }
+
+   .buttons{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     gap:2rem;
+   }
+
+   .buttons button{
+     background-color:#1992D4;
+     border:none;
+     width:7rem;
+     height:2rem;
+     border-radius: 2rem;
+   }
