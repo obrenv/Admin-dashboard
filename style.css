@@ -22,6 +22,7 @@ html {
     height: auto;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
  /*SIDEBAR*/
 
 .global-container{
@@ -29,6 +30,7 @@ html {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
     height:100vh;  
+    font-family: 'Roboto', sans-serif;
 }
 
 .sidebar-container{
@@ -123,8 +125,18 @@ margin-left: 3rem;
 
    .greeting{
 display:flex;
-width:21rem;
+width:22rem;
+font-weight: 900;
    }
+
+   .bold{   
+    font-weight: 900;
+    
+       }
+
+   .smaller{
+         font-size:15px;
+       }
 
    .buttons{
      display:flex;
@@ -135,6 +147,7 @@ width:21rem;
 
    .buttons button{
      background-color:#1992D4;
+     color:white;
      border:none;
      width:7rem;
      height:2rem;
