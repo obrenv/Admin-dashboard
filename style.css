@@ -103,7 +103,7 @@ margin-left: 3rem;
  .pepe{
   width: 3rem;
   border: solid 1px;
-  border-radius: 50%;
+  border-radius: 100%;
    }
 
    .searchbar input{
@@ -153,3 +153,36 @@ font-weight: 900;
      height:2rem;
      border-radius: 2rem;
    }
+
+
+
+
+
+   /* MAIN */
+
+.main-container{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cards{
+  height: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+  gap:3rem;
+}
+
+
+.card{
+  background-color: aliceblue;
+  width: 20rem;
+  height: 10rem;
+  
+  
+}
+
+.main-titles{
+  margin-top: 2rem;
+}
