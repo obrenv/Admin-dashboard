@@ -170,18 +170,33 @@ font-weight: 900;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap:3rem;
+  justify-items: center;
+  align-items:start;
+  width: 52rem;
+  height:90%;
+  margin:auto;
 }
 
+.yellow{
+  background-color: #f0b429;
+ 
+  
+}
 
 .card{
-  background-color: aliceblue;
-  width: 20rem;
-  height: 10rem;
-  
+  background-color: white;
+  width: 25rem;
+  height: 11rem;
+  border-radius: 1rem;
+  display:grid;
+  grid-template-columns: 1rem 1fr;
+  overflow:hidden; 
   
 }
 
-.main-titles{
-  margin-top: 2rem;
+.main-titles{  
+    margin-left:4rem;
 }
+
+
+
