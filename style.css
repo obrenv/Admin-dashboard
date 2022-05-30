@@ -195,8 +195,29 @@ font-weight: 900;
 }
 
 .main-titles{  
-    margin-left:4rem;
+  display:block;
+  margin-left:8rem;
+  margin-top: 2rem;
+
+    
 }
 
+.white{
+  display:grid;
+  grid-template-columns: 1fr 6rem;
+}
 
+.small{
+  font-size: smaller;
+  color:rgb(83, 83, 83)
+}
+
+.card-icons{  
+ 
+   grid-area:2 / 2 / 3 / 3;
+}
+
+.card-text{
+  grid-area:1 / 1 / 2 / 3;
+}
 
