@@ -244,14 +244,6 @@ font-weight: 900;
  
 }
 
-.Trending{
-  height:17.5rem;
-  width: 18rem;
-  background-color: white;
-  border-radius: 1rem;
-}
-
-
 /*Announcements*/
 
 .a-titles{
@@ -279,5 +271,45 @@ hr {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  padding:0.2rem;
 }
 
+/* Trending */
+.Trending{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height:100%;
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+  justify-items: center;
+  padding:0.5rem;
+}
+
+t-avatars{
+
+width: 3rem;
+border:5px ;
+border-radius: 50%;
+margin:auto;
+
+}
+
+.t-titles{
+  font-size:large;
+  
+  }
+  
+  .t-text{
+  font-size: small;
+  
+  }
+
+.trending-container{
+height: 15.8rem;
+}
+
+t-avaters{
+  justify-items: center;
+}
