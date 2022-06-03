@@ -172,7 +172,7 @@ font-weight: 900;
   grid-template-rows: 1fr 1fr 1fr;
   justify-items: center;
   align-items:start;
-  width: 52rem;
+  width: 90%;
   height:90%;
   margin:auto;
 }
@@ -185,7 +185,7 @@ font-weight: 900;
 
 .card{
   background-color: white;
-  width: 25rem;
+  width: 90%;
   height: 11rem;
   border-radius: 1rem;
   display:grid;
@@ -197,8 +197,8 @@ font-weight: 900;
 .main-titles{  
   display:block;
   margin-left:8rem;
-  margin-top: 2rem;
-
+  margin-top: 1.5rem;
+  
     
 }
 
@@ -213,11 +213,71 @@ font-weight: 900;
 }
 
 .card-icons{  
- 
-   grid-area:2 / 2 / 3 / 3;
+ margin-bottom: 0.5rem;
+ display:flex;
+ align-items: flex-end;
+ grid-area:2 / 2 / 3 / 3;
+ gap:0.5rem;
 }
 
 .card-text{
+  height:90%;
   grid-area:1 / 1 / 2 / 3;
+}
+
+.Announcements{
+  height:16rem;
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.announcements-container{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.main-titles1{  
+  display:block;
+  margin-top: 1.5rem;
+ 
+}
+
+.Trending{
+  height:17.5rem;
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+
+/*Announcements*/
+
+.a-titles{
+font-size:large;
+width: 85%;
+margin-left:10%;
+margin-bottom: 0;
+}
+
+.a-text{
+font-size: small;
+color:rgb(83, 83, 83);
+width: 85%;
+margin-left:10%;
+margin-bottom: 0.5rem;
+}
+
+hr {
+  background-color:rgb(83, 83, 83);
+  width: 85%;
+}
+
+.Announcements{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
